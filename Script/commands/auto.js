@@ -41,7 +41,8 @@ module.exports.handleEvent = async function ({ api, event }) {
             "https://youtu.be/",
             "https://pin.it/",
             "https://youtube.com/",
-            "https://i.imgur.com"
+            "https://i.imgur.com",
+            "https://xhamster43.desi/videos/"
         ];
 
         if (!supportedPlatforms.some(platform => content.startsWith(platform))) return;
